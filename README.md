@@ -32,8 +32,8 @@ Update *path* variable to include the bin diretories
 
 3. Go to spark-3.5.0-bin-hadoop3\python\lib
 
-py4j-0.10.9.7-src.zip 
-Add it to path environment variable as well
+py4j-0.10.9.7-src.zip
+Update the path System environment variable with - the absolute path of the py4j-0.10.9.7-src.zip, i.e. <your local path location>\spark-3.5.0-bin-hadoop3\python\lib\py4j-0.10.9.7-src.zip
 
 4. test spark command using "cmd" command prompt
 spark-submit --version
