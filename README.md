@@ -55,3 +55,24 @@ df = spark.read.csv("data/coursera_course_dataset_v2_no_null.csv", header=True, 
 
 df.printSchema()
 ```
+---
+## Dataset Description
+
+The dataset was scrapped directly from coursera website.
+
+### Content
+This dataset contains mainly 6 columns and 977 course data. 
+
+### The detailed description:
+
+* Title : Contains the course title.
+
+* Organization : It tells which organization is conducting the courses.
+
+* Skills: It defines list of skills can be obtained from the course.
+
+* Ratings: It has the ratings associated with each course.
+
+* Review count: Have the review count for each course
+
+* Miscellaneous info like course type, difficulty, expected training length
